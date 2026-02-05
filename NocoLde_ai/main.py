@@ -3,7 +3,7 @@ import json
 import os
 
 # 1. APIキーの設定
-client = openai.OpenAI(api_key="client = openai.OpenAI(api_key=st.secrets["OPENAI_API_KEY"])")
+client = openai.OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 def load_history(filename):
     if os.path.exists(filename):
