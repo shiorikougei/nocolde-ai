@@ -1,3 +1,4 @@
+import streamlit as st
 import openai
 import json
 import os
@@ -65,4 +66,5 @@ if __name__ == "__main__":
     # historiesフォルダがなければ作る
     if not os.path.exists("histories"):
         os.makedirs("histories")
+
     start_session()
