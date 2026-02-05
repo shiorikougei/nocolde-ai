@@ -4,7 +4,7 @@ import os
 import json
 
 # --- 1. APIキーと基本設定 ---
-client = openai.OpenAI(api_key="client = openai.OpenAI(api_key=st.secrets["OPENAI_API_KEY"])")
+client = openai.OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 st.set_page_config(page_title="NocoLde メッセージ自動生成SYSTEM", layout="wide")
 
